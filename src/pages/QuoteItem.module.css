@@ -1,0 +1,43 @@
+.quote-item {
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: brown;
+  color: #fefefe;
+}
+
+.quote-item p {
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.quote-item span {
+  text-align: right;
+  font-size: 1.125rem;
+  font-style: italic;
+}
+
+.quote-item a {
+  text-decoration: none;
+  color: #fefefe;
+  font-weight: 600;
+  border: 2px solid #fefefe;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  margin: 1rem 0 0 auto;
+}
+
+@media (max-width: 768px) {
+  .quote-item p {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  .quote-item span {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,87 @@
+.new-quote {
+  max-width: 90vw;
+  width: 700px;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-quote h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.new-quote form {
+  padding: 2rem;
+  max-width: 100vw;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  margin-top: 2rem;
+}
+
+.new-quote form .form-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.new-quote form .form-group label {
+  width: 150px;
+}
+
+.new-quote form .form-group input {
+  width: 100%;
+  background-color: rgba(164, 42, 42, 0.5);
+  border: none;
+  outline: none;
+  height: 2rem;
+  border-radius: 3px;
+  padding: 0 1rem;
+}
+
+.new-quote form button {
+  border: none;
+  outline: none;
+  height: 2.5rem;
+  width: 7rem;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.45);
+  margin-top: 5px;
+  transition: 250ms ease-out;
+}
+
+.new-quote form button:hover {
+  width: 8rem;
+  background-color: rgba(164, 42, 42, 0.5);
+}
+
+@media (max-width: 768px) {
+  .new-quote {
+    margin: 2rem auto;
+  }
+}
+
+.new-quote form svg {
+  animation-name: spinner;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

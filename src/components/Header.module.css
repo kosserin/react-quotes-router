@@ -1,0 +1,33 @@
+.header {
+  width: 100vw;
+  padding: 0 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  background-color: brown;
+}
+
+.header > a {
+  text-decoration: none;
+  color: #fefefe;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: #fefefe;
+  font-size: 1.125rem;
+}
+
+.active {
+  border-bottom: 3px solid #fefefe;
+}
