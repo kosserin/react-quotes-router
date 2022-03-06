@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-quotes-router/static/css/main.4bd062ce.css",
+    "main.js": "/react-quotes-router/static/js/main.64ca0eb8.js",
+    "index.html": "/react-quotes-router/index.html",
+    "main.4bd062ce.css.map": "/react-quotes-router/static/css/main.4bd062ce.css.map",
+    "main.64ca0eb8.js.map": "/react-quotes-router/static/js/main.64ca0eb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bd062ce.css",
+    "static/js/main.64ca0eb8.js"
+  ]
+}
