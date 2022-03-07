@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-quotes-router/static/css/main.7b90e77e.css",
-    "main.js": "/react-quotes-router/static/js/main.055c669d.js",
+    "main.css": "/react-quotes-router/static/css/main.27d143e4.css",
+    "main.js": "/react-quotes-router/static/js/main.96aed5de.js",
     "index.html": "/react-quotes-router/index.html",
-    "main.7b90e77e.css.map": "/react-quotes-router/static/css/main.7b90e77e.css.map",
-    "main.055c669d.js.map": "/react-quotes-router/static/js/main.055c669d.js.map"
+    "main.27d143e4.css.map": "/react-quotes-router/static/css/main.27d143e4.css.map",
+    "main.96aed5de.js.map": "/react-quotes-router/static/js/main.96aed5de.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b90e77e.css",
-    "static/js/main.055c669d.js"
+    "static/css/main.27d143e4.css",
+    "static/js/main.96aed5de.js"
   ]
 }
